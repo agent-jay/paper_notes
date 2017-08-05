@@ -1,5 +1,5 @@
 # Bidirection Attention Flow for Machine Comprehension
-*Minjoon Seo1, Aniruddha Kembhavi, Ali Farhadi1, Hananneh Hajishirzi1*
+**Minjoon Seo, Aniruddha Kembhavi, Ali Farhadi, Hananneh Hajishirzi**
 
 ----
 

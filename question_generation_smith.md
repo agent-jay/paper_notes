@@ -1,5 +1,5 @@
 # Good Question! Statistical Ranking for Question Generation 
-*Michael Heilman Noah A. Smith* 
+**Michael Heilman Noah A. Smith**
 
 ----
 
