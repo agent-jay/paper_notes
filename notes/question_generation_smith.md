@@ -1,8 +1,6 @@
 # Good Question! Statistical Ranking for Question Generation 
 **Michael Heilman Noah A. Smith**
 
-----
-
 ## Summary
 
 The Learning to Ask paper uses this as a baseline. This paper came out in 2010

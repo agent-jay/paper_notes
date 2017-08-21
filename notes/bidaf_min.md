@@ -1,8 +1,6 @@
 # Bidirection Attention Flow for Machine Comprehension
 **Minjoon Seo, Aniruddha Kembhavi, Ali Farhadi, Hananneh Hajishirzi**
 
-----
-
 ## Summary
 
 BiDAF is a fairly popular machine comprehension methods for question answering,
