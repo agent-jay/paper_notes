@@ -51,7 +51,7 @@ The architecture uses 5 CNN layers and 3 fully connected layers.
 - Generally speaking, do convolutional layers have fewer parameters than fully
   connected ones?
 - Why is the data usually normalized? And how/why does local response
-  normalization work?
+  normalization work? Is it similar to batch normalization?
 - What is the intuition behind overlapping pooling?
 - Is there a principled approach to increasing depth in modern CNN models? More
   complex models like GoogleNet have ridiculous number of layers with millions
@@ -60,4 +60,17 @@ The architecture uses 5 CNN layers and 3 fully connected layers.
   elsewhere (poor generalization)?
 
 ## Answers
+
+- The feature maps are spread across 2 GPUs (purely for memory constraint
+  reasons). So for any conv layer half the feature maps are on one GPU and the
+  remaining on the other GPU.
+- LRN isn't used anymore. See elsewhere for the other answers
+- Yes, the intuition behind convnets is to reduce the number of parameters
+  (compared to an equivalent functionality fully connected network) by making
+  the (reasonable) assumption that images are data that have spatial properties
+  (local spatial-correlation) and the same features(say edges) exist across the
+  image (no need to relearn that idea). This is a bias encoded into the
+  architecture to make it efficient in the number of parameters learned.
+  There's some similarity in this to how LSTMs use the same weights across
+  time.
 
