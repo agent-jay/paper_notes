@@ -31,6 +31,11 @@ the Faster-RCNN framework and show SOTA results.
   gradient problem (They use BN and verify that forward/backward signals don't
   vanish). 
 - More analysis in [Identity Mappings in Deep Residual Networks](https://arxiv.org/pdf/1603.05027.pdf)
+- 1*1 convolution layers are used for dimensionality reduction- spatial
+  resolution maintained, but the number of feature maps can be reduced (volume)
+  by using fewer 1*1 conv filters than the current volume. Introduced in the
+  Inception architecture for reducing feature map size before blowing them up
+  again with 3*3 or 5*5 conv layers.
 
 
 ## Questions
@@ -44,5 +49,7 @@ the Faster-RCNN framework and show SOTA results.
 
 ## Answers
 
-
+- It doesn't have to be forced or anything. It can be seen as an additional
+layer, where the output of the intermediate layers, F(x) is summed with x
+- Unclear. Maybe it's something about learnability of identity mappings
 
