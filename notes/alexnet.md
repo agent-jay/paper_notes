@@ -64,7 +64,8 @@ The architecture uses 5 CNN layers and 3 fully connected layers.
 - The feature maps are spread across 2 GPUs (purely for memory constraint
   reasons). So for any conv layer half the feature maps are on one GPU and the
   remaining on the other GPU.
-- LRN isn't used anymore. See elsewhere for the other answers
+- LRN isn't used anymore. See elsewhere for the other answers (TL;DR- quicker
+  convergence, gradient descent bounces around less- https://www.coursera.org/learn/machine-learning/lecture/xx3Da/gradient-descent-in-practice-i-feature-scaling, http://www.holehouse.org/mlclass/04_Linear_Regression_with_multiple_variables.html) 
 - Yes, the intuition behind convnets is to reduce the number of parameters
   (compared to an equivalent functionality fully connected network) by making
   the (reasonable) assumption that images are data that have spatial properties
