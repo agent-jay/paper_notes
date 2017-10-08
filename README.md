@@ -6,3 +6,5 @@
 - [ImageNet Classification with Deep Convolutional Neural Networks](notes/alexnet.md)[[paper](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)][[code](https://github.com/BVLC/caffe/tree/master/models/bvlc_alexnet)]
 - [Deep Residual Learning for Image Recognition](notes/resnet_he.md)[[arxiv](https://arxiv.org/abs/1512.03385)][[code](https://github.com/KaimingHe/deep-residual-networks)]
 - [SSD: Single Shot MultiBox Detector](notes/ssd_liu.md)[[arxiv](https://arxiv.org/abs/1512.02325)]
+- [Beyond Short Snippets: Deep Networks for Video Classification](notes/deepvideo_ng.md)[[arxiv](https://arxiv.org/abs/1503.08909)]
+- [DRAW: A Recurrent Neural Network For Image Generation](notes/draw_gregor.md)[[arxiv](https://arxiv.org/abs/1502.04623)]
