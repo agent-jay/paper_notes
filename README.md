@@ -1,5 +1,6 @@
 # Paper Reviews
 
+- [Effective Approaches to Attention-based Neural Machine Translation](notes/attention_luong.md)[[arxiv](https://arxiv.org/abs/1508.04025)]
 - [Bidirectional Attention Flow for Machine Comprehension](notes/bidaf_min.md)[[arxiv](https://arxiv.org/abs/1611.01603)][[code](https://github.com/allenai/bi-att-flow)]
 - [Good Question! Statistical Ranking for Question Generation](notes/question_generation_smith.md)[[paper](https://homes.cs.washington.edu/~nasmith/papers/heilman+smith.naacl10.pdf)]
 - [Lexically Constrained Decoding for Sequence Generation Using Grid Beam Search](notes/constrained_decoding_hokamp.md)[[paper](https://arxiv.org/abs/1704.07138)]
