@@ -1,5 +1,5 @@
 # DRAW: A Recurrent Neural Network For Image Generation
-** Karol Gregor, Ivo Danihelka, Alex Graves, Danilo Jimenez Rezende, Daan Wierstra **
+**Karol Gregor, Ivo Danihelka, Alex Graves, Danilo Jimenez Rezende, Daan Wierstra**
 
 ## Summary
 
@@ -47,5 +47,5 @@ actually look at all the image with less detail or some of it with more.
   choices of z will lead to random outputs, which don't look like anything from
   the training distribution. So now we try to force the distribution Q(z|x) to
   look like a standard normal (referred to as prior P) which is what we
-  actually sample z from during inference. **To emphasize, P is a choice we make.*
+  actually sample z from during inference. **To emphasize, P is a choice we make.**
   By minimizing KL divergence between Q and P.
