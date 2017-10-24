@@ -11,3 +11,4 @@
 - [Beyond Short Snippets: Deep Networks for Video Classification](notes/deepvideo_ng.md)[[arxiv](https://arxiv.org/abs/1503.08909)]
 - [Recurrent Models of Visual Attention](notes/ram_mnih.md)[[arxiv](https://arxiv.org/abs/1406.6247)]
 - [DRAW: A Recurrent Neural Network For Image Generation](notes/draw_gregor.md)[[arxiv](https://arxiv.org/abs/1502.04623)]
+- [Playing Atari with Deep Reinforcement Learning](notes/dqn_mnih.md)[[arxiv](https://arxiv.org/abs/1312.5602)[Nature](http://www.davidqiu.com:8888/research/nature14236.pdf)] (Nature paper is more comprehensive)
